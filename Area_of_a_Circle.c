@@ -1,15 +1,9 @@
 #include<stdio.h>
-#define PI 3.14
-int main()
+int main ()
 {
- double radius, area;
- printf("Enter The Radius Of The Ciecle : ");
- if(scanf("%f",&radius) !=1 || radius < 0);
- {
-  printf("Invalid Input. Plese Enter A Non-negative Number.\n");
-  return 1;
- }
- area = PI * radius * radius;
- printf("Area Of The Circle = %.2f\n",area);
- return 0;
+  float r = 7.3;
+  float pi = 3.1415;
+  float v = 4 * pi * r * r * r / 3;
+  printf("The Area Of a Circle: %f",v);
+  return 0;
 }
