@@ -1,11 +1,14 @@
 #include<stdio.h>
 int main()
 {
-  float p,r,t,si;
-  p = 100;
-  r = 10;
-  t = 2;
-  si = (p*r*t)/100;
-  printf("Enter The Value: %f",si);
-  return 0;
+  float principal,rate,time,si;
+  printf("Enter Your Principal : ");
+  scanf("%f",&principal);
+  printf("Enter Your Rate : ");
+  scanf("%f",&rate);
+  printf("Enter Your Time : ");
+  scanf("%f",time);
+  si = (principal*rate*time)/100;
+  printf("Your Simple Intrese is : %f",si);
+return 0;
 }
