@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+  int a;
+  int b;
+  int c;
+  printf("Enter 1st Number : ");
+  scanf("%d",&a);
+  printf("Enter 2nd Number : ");
+  scanf("%d",&b);
+  printf("Enter 3rd Number : ");
+  scanf("%d",&c);
+  if(a>b && a>c){
+    printf("%d Is Greatest",a);
+  }
+  if(b>a && b>c){
+    printf("%d Is Greatest",a);
+  }
+  if(c>a && c>b){
+    printf("%d Is Greatest",a);
+  }
+  return 0;
+}
